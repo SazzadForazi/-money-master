@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+    color: blue;
+    font-weight: 900;
+    margin: 10px 0;
+}
+.hedding{
+    text-align: center;
+
+}
+.section-two{
+    background-color: rgba(252, 249, 249, 0.87);
+}

@@ -12,7 +12,57 @@
 </head>
 
 <body>
+    <section>
+        <div class="title">
+            <h3>The Giant Pool of Money</h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <img style="height: 600px;width: 500px;" src="./img/money.jpg" alt="">
+                </div>
+                <div class="col-sm section-two">
+                    <div class="container">
+                        <label for="income">Income:</label>
+                        <input
+                            style="margin-left: 5px;margin-top: 15px;border: none;background-color: rgb(223, 215, 215); border-radius: 5px;"
+                            type="number" id="income" name="income"><br><br>
+                        <h6 class="hedding">Expenses</h6>
+                        <!-- <p>Food: <input type="text"></p> -->
+                        <!-- <label for="food">Food:</label>
+                    <input type="text">
+                    <label for="rent">Food:</label>
+                    <p>Rent: <input type="text"></p>
+                    <p>Clothes: <input type="text"></p> -->
 
+                        <label for="food">Food:</label>
+                        <input
+                            style="margin-left: 23px;border: none;background-color: rgb(223, 215, 215); border-radius: 5px;"
+                            type="number" id="food" name="food"><br><br>
+                        <label for="rent">Rent: </label>
+                        <input
+                            style="margin-left: 25px;border: none;background-color: rgb(223, 215, 215); border-radius: 5px;"
+                            type="number" id="rent" name="rent"><br><br>
+                        <label for="clothes">Clothes:</label>
+                        <input style="border: none;background-color: rgb(223, 215, 215); border-radius: 5px;"
+                            type="number" id="clothes" name="clothes"><br><br>
+                        <button style="padding: 5px 50px;" type="submit" id="calculate"
+                            class="btn btn-primary hedding">Calculate</button>
+                        <!-- <button class="hedding">Calculate</button> -->
+                        <h6 class="hedding">Total Expenses: <span id="exprenses">00</span></h6>
+                        <h6 class="hedding">Balance: <span id="remaining">00</span></h6>
+
+                        <p>Save: <input
+                                style="margin-left: 25px;border: none;background-color: rgb(223, 215, 215); border-radius: 5px;"
+                                type="text"><span> % </span><button
+                                style="padding: 5px 50px ;border-radius: 5px">Save</button></p>
+                        <h6 class="hedding">Saving Amount:2000</h6>
+                        <h6 class="hedding">Remaining Balance:2500</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
