@@ -46,20 +46,25 @@
                         <label for="clothes">Clothes:</label>
                         <input style="border: none;background-color: rgb(223, 215, 215); border-radius: 5px;"
                             type="number" id="clothes" name="clothes"><br><br>
-                        <button style="padding: 5px 50px;" type="submit" id="calculate"
-                            class="btn btn-primary hedding">Calculate</button>
+                        <div class="vertical-center">
+                            <button style="padding: 5px 50px; text-align: center;" type="submit" id="calculate"
+                                class="btn btn-primary">Calculate</button>
+                        </div>
                         <!-- <button class="hedding">Calculate</button> -->
                         <h6 class="hedding">Total Expenses: <span id="exprenses">00</span></h6>
                         <h6 class="hedding">Balance: <span id="remaining">00</span></h6>
 
-                        <p>Save: <input
-                                style="margin-left: 25px;border: none;background-color: rgb(223, 215, 215); border-radius: 5px;"
-                                type="text">
-                            <button style="padding: 2px 20px;" type="submit" id="save"
-                                class="btn btn-primary hedding">Save</button>
-                        </p>
-                        <h6 class="hedding">Saving Amount:2000</h6>
-                        <h6 class="hedding">Remaining Balance:2500</h6>
+                        <div>
+                            <p>Save: <input id="save"
+                                    style="margin-left: 25px;border: none;background-color: rgb(223, 215, 215) ;width: 100px; border-radius: 5px;"
+                                    type="text"> %
+                                <button style="padding: 2px 20px;" type="submit" id="save-btn"
+                                    class="btn btn-primary hedding">Save</button>
+                            </p>
+
+                        </div>
+                        <h6 class="hedding">Saving Amount: <span id="total-saving">00</span></h6>
+                        <h6 class="hedding">Remaining Balance: <span id="total-remaining">00</span></h6>
                     </div>
                 </div>
             </div>

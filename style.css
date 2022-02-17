@@ -7,6 +7,9 @@
     color: blue;
     font-weight: 900;
     margin: 10px 0;
+    font-size: large;
+    font-family: cursive;
+    font-weight: bolder;
 }
 .hedding{
     text-align: center;
@@ -15,3 +18,7 @@
 .section-two{
     background-color: rgba(252, 249, 249, 0.87);
 }
+.vertical-center {
+    text-align: center;
+    margin: 15px 0;
+  }
